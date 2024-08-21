@@ -1,0 +1,37 @@
+.display-flex {
+    display:flex;
+}
+
+.align-items-center {
+    align-items:center;
+}
+
+.justify-content-between {
+    justify-content:space-between;
+}
+
+.justify-content-center {
+    justify-content:center;
+}
+
+.main-title {
+    font-size:50px;
+    margin:30px 0;
+}
+
+.flag-bg {
+    background:url("./flag.png")no-repeat center / cover scroll;
+    width:500px;
+    height:300px;
+    position:relative;
+    margin:0 auto;
+}
+
+.flag-bg p {
+    position:absolute;
+    bottom:20px;
+    text-align:center;
+    width:100%;
+    font-size:24px;
+    font-weight:bold;
+}
