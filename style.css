@@ -165,7 +165,7 @@ a:hover {
 .tabs-inner .widget li a {
   display: inline-block;
   margin: 0;
-  padding: 1em 2.4em;
+  padding: 1em 1.2em;
   font: normal bold 17px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
   color: #ffffff;
   height: 20px;
@@ -271,6 +271,13 @@ h2 {
 .main-inner .widget .widget-content {
   margin: 0 -15px;
   padding: 7px 15px 0;
+}
+
+/* 메뉴 */
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-inner .widget ul,
@@ -578,7 +585,6 @@ body {
 .region-inner {
   min-width: 951px;
   max-width: 951px;
-  _width: 951px;
 }
 
 .main-inner .columns {
@@ -683,6 +689,13 @@ body#layout div.add_widget a {
 .info-section.link {
   color: #3e75b7;
   font-size: 1rem;
+}
+
+a.dk-taiwan-homepage-link {
+  display: block;
+  color: #3e75b7;
+  font-size: 1rem;
+  text-align: center;
 }
 
 /* 반응형 디자인 */
