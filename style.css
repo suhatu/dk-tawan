@@ -686,7 +686,7 @@ body#layout div.add_widget a {
 }
 
 /* 반응형 디자인 */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .tabs-inner .widget ul {
     flex-direction: column;
   }
@@ -699,4 +699,4 @@ body#layout div.add_widget a {
   .main-title {
     font-size: 28px;
   }
-}
+} */
