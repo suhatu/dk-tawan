@@ -276,6 +276,7 @@ h2 {
 /* 메뉴 */
 .header-menu {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
