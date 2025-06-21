@@ -704,18 +704,20 @@ a.link {
   justify-content: center;
 }
 
+.telegram-link-wrapper {
+  position: fixed;
+  bottom: 10%;
+  right: 10px;
+  z-index: 16005;
+}
+
 /* 반응형 디자인 */
-/* @media (max-width: 768px) {
-  .tabs-inner .widget ul {
-    flex-direction: column;
+@media (max-width: 768px) {
+  .telegram-link-wrapper {
+    bottom: 22%;
   }
 
-  .tabs-inner .widget li a {
-    padding: 0.8em 1.2em;
-    font-size: 14px;
+  .telegram-link-wrapper img {
+    height: 100px;
   }
-
-  .main-title {
-    font-size: 28px;
-  }
-} */
+}
