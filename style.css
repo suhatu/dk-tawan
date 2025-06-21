@@ -692,11 +692,16 @@ body#layout div.add_widget a {
   font-size: 1rem;
 }
 
-a.dk-taiwan-homepage-link {
-  display: block;
+a.link {
   color: #3e75b7;
   font-size: 1rem;
   text-align: center;
+}
+
+.homepage-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 반응형 디자인 */
